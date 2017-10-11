@@ -1,0 +1,35 @@
+create table alumnidata(
+firstName text,
+lastName text,
+enrollmentNumber text unique,
+emailAddress text,
+phoneNumber text,
+gender text,
+password text,
+yearOfAdmission text,
+profilePictureData text);
+
+
+insert into alumnidata values("Shubham","Nagota","0704EC131105","Shubhamnagota@gmail.com","9827656400","Male","shubham","2013","profilePictureString");
+insert into alumnidata values("Sanidhya","Saraswat","0704CS131089","Sanidhyasaraswat@gmail.com","9424038133","Male","sanidhya","2013","profilePictureString");
+insert into alumnidata values("Shivang","Bhargava","0714CS131027","Shivangbhargava@gmail.com","9424843999","Male","shivang","2013","profilePictureString");
+insert into alumnidata values("Saloni","Jain","0704CS131087","Salonijain@gmail.com","9827656400","Female","saloni","2013","profilePictureString");
+insert into alumnidata values("Shyama","Pagare","0704CS131105","Shyama@gmail.com","9827656400","Female","shyama","2013","profilePictureString");
+insert into alumnidata values("Ruchika","Saxena","0704CS131081","Ruchikasaxena@gmail.com","9827656400","Female","ruchika","2013","profilePictureString");
+insert into alumnidata values("Yashi","Yadav","0704CS131120","Yashi@gmail.com","9827656400","Female","yashi","2013","profilePictureString");
+
+
+
+create table favoritealumnidata
+(enrollmentNumber text,
+favoriteEnrollmentNumber text);
+
+insert into favoritealumnidata values("0704EC131105","0704CS131089");
+insert into favoritealumnidata values("0704EC131105","0704CS131087");
+insert into favoritealumnidata values("0704EC131105","0704CS131081");
+insert into favoritealumnidata values("0704CS131089","0704CS131081");
+insert into favoritealumnidata values("0704CS131089","0704CS131087");
+insert into favoritealumnidata values("0704CS131089","0704CS131105");
+insert into favoritealumnidata values("0704CS131089","0704EC131105");
+
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.sworks.mitalumniapp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alumni_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            >
+        </activity>
+        <activity
+            android:name=".FavouritesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            >
+        </activity>
+        <activity
+            android:name=".MessagesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".StartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".AboutMITActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".AlumniClickedActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ConnectionSettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+    </application>
+
+</manifest>
